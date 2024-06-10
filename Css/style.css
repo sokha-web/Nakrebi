@@ -192,3 +192,28 @@ ul{
     padding-top: .5rem;
     padding-bottom: .5rem;
 }
+
+/* menu */
+
+.menu{
+    height: 100px;
+    position: relative;
+}
+
+.main-logo{
+    width: 82px;
+    height: 82px;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    font-size: 1.25rem;
+    position: absolute;
+    padding-left: .3125rem;
+}
+
+.bar{
+    display: flex;
+    height: 50px;
+    vertical-align: middle;
+    display: inline-block;
+    max-width: 100%;
+}
