@@ -1,0 +1,51 @@
+/* Nav Bar */
+
+
+.nav-bar{
+    list-style: none;
+    display: flex;
+    padding-left: 25px;
+    margin-bottom: 0px;
+}
+.nav-item-1{
+    transition: .3s;
+}
+
+.nav-link{
+    transition: .3s;
+    font-size: 13px;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Noto Sans Georgian", sans-serif;
+    display: flex;
+}
+
+.icon{
+    width: 20px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.img-1{
+    border-style: none;
+    vertical-align: middle;
+}
+
+.mr-1{
+    margin-right: .5rem;
+}
+
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
