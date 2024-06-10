@@ -6,8 +6,9 @@
     }
   }
     
-@media screen and (min-width: 1280px){
-    .main-logo{
-        position: fixed;
-    }
+@media (min-width: 1200px) {
+  .menu{
+    display: flex;
+    max-width: 1240px;
+  }
 }

@@ -57,7 +57,7 @@
     font-size: 13px;
     align-items: center;
     text-decoration: none;
-    font-family: "Noto Sans Georgian", sans-serif;
+    font-family: 'FiraGO', sans-serif;
     display: flex;
     color: #f03135;
     padding-left: 0px;
@@ -69,7 +69,7 @@
     font-size: 13px;
     align-items: center;
     text-decoration: none;
-    font-family: "Noto Sans Georgian", sans-serif;
+    font-family: 'FiraGO', sans-serif;
     display: flex;
     color: #60636c;
     padding-left: 0px;
@@ -85,7 +85,7 @@
     font-size: 13px;
     align-items: center;
     text-decoration: none;
-    font-family: "Noto Sans Georgian", sans-serif;
+    font-family: 'FiraGO', sans-serif;
     display: flex;
     color: #60636c;
     padding-left: 0px;
@@ -101,7 +101,7 @@
     font-size: 13px;
     align-items: center;
     text-decoration: none;
-    font-family: "Noto Sans Georgian", sans-serif;
+    font-family: 'FiraGO', sans-serif;
     display: flex;
     color: #60636c;
     padding-left: 0px;
@@ -117,7 +117,7 @@
     font-size: 13px;
     align-items: center;
     text-decoration: none;
-    font-family: "Noto Sans Georgian", sans-serif;
+    font-family: 'FiraGO', sans-serif;
     display: flex;
     color: #60636c;
     padding-left: 0px;
@@ -182,38 +182,222 @@ ul{
     unicode-bidi: isolate;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .Site{
     text-align: center;
     font-size: 14px;
     text-transform: uppercase;
     border-bottom: 1px solid #dee2e6;
-    font-family: "BPG Nino Mtavruli Bold", sans-serif;
+    font-family: 'FiraGO', sans-serif;
     color: #f03135;
     padding-top: .5rem;
     padding-bottom: .5rem;
+    align-items: center;
 }
 
 /* menu */
 
 .menu{
-    height: 100px;
-    position: relative;
+    height: 108px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .main-logo{
-    width: 82px;
-    height: 82px;
+    width: 100px;
+    height: 100px;
     padding-top: .3125rem;
     padding-bottom: .3125rem;
     font-size: 1.25rem;
-    position: absolute;
-    padding-left: .3125rem;
+    display: inline-block;
 }
 
-.bar{
-    display: flex;
+
+.tkt{
+    border: 1px solid #f03135;
+    background-color: #f03135;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 120px;
     height: 50px;
+    color: white;
+    font-size: medium;
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
+    text-align: center;
     vertical-align: middle;
     display: inline-block;
-    max-width: 100%;
+    user-select: none;
+    line-height: 1.14;
+    padding: 1.1rem 1.1125rem;
+    transition: .5s; 
 }
+
+.tkt:hover{
+    background-color: #c5383b;
+    border-color: #c5383b;
+}
+
+#btn{
+    font-feature-settings: "case" on;
+    box-shadow: initial !important;
+    outline: 0 !important;
+    border: 0 !important;
+    background-color: transparent;
+    cursor: default;
+}
+
+.geo{
+    border: 1px solid #dee2e6;
+    border-radius: 50px;
+    width: 75px;
+    height: 35px;
+    margin-left: 1rem;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
+}
+
+.geo-img{
+    border-radius: 16px;
+    width: auto;
+    margin-right: 5px;
+    height: 18px;
+    vertical-align: middle;
+    border-style: none;
+    margin-top: 0.3125rem;
+    display: inline-block;
+    padding-left: 0px;
+}
+
+
+
+.p-1{
+    display: inline-block;
+    padding-top: 10px;
+    vertical-align: middle;
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
+}
+
+.list{
+    width: 1140px;
+    display: flex;
+    align-items: center;
+    padding-left: 2.5rem;
+}
+
+.sec-bar{
+    display: inline-block;
+}
+
+li{
+    display: inline-block;
+    color: #60636c;
+    text-decoration: none;
+}
+
+.bar-1{
+    color: #60636c;
+    font-family: "BPG Arial Caps", sans-serif;
+    transition: .5s;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.bar-1:hover{
+    color: #f03135;
+}
+
+.arrow{
+    line-height: 1;
+}
+
+.bar-2{
+    color: #60636c;
+    font-family: "BPG Arial Caps", sans-serif;
+    transition: .5s;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.bar-2:hover{
+    color: #f03135;
+}
+
+.bar-3{
+    color: #60636c;
+    font-family: "BPG Arial Caps", sans-serif;
+    transition: .5s;
+    display: inline-block;
+    padding-right: 20px;
+
+}
+
+.bar-3:hover{
+    color: #f03135;
+}
+
+
+.bar-5{
+    color: #60636c;
+    font-family: "BPG Arial Caps", sans-serif;
+    transition: .5s;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.bar-5:hover{
+    color: #f03135;
+}
+
+
+.bar-4{
+    color: #60636c;
+    font-family: "BPG Arial Caps", sans-serif;
+    transition: .5s;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.bar-4:hover{
+    color: #f03135;
+}
+
+.bar-6{
+    color: #60636c;
+    font-family: "BPG Arial Caps", sans-serif;
+    transition: .5s;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.bar-6:hover{
+    color: #f03135;
+}
+
+
+
+.d-1{
+    display: flex;
+}
+
+
+/* Slider */
+
+/* section{
+    height: 500px;
+    background-image: url("../Images/slider.png");
+    background-size:  100%;
+    background-repeat: no-repeat;
+    background-position: center 0;
+} */
+
+
