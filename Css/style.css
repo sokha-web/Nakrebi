@@ -208,6 +208,7 @@ ul{
     margin-right: auto;
     margin-top: 8px;
     margin-bottom: 8px;
+    display: flex;
 }
 
 .main-logo{
@@ -289,13 +290,14 @@ ul{
 
 .list{
     width: 1140px;
-    display: flex;
-    align-items: center;
-    padding-left: 2.5rem;
+    height: 108px;
+    padding-top: 1.5rem;
+    padding-left: 6rem;
 }
 
 .sec-bar{
     display: inline-block;
+    margin-left: 2.5rem;
 }
 
 li{
@@ -310,6 +312,7 @@ li{
     transition: .5s;
     display: inline-block;
     padding-right: 20px;
+    font-size: .875rem;
 }
 
 .bar-1:hover{
@@ -326,6 +329,7 @@ li{
     transition: .5s;
     display: inline-block;
     padding-right: 20px;
+    font-size: .875rem;
 }
 
 .bar-2:hover{
@@ -338,7 +342,7 @@ li{
     transition: .5s;
     display: inline-block;
     padding-right: 20px;
-
+    font-size: .875rem;
 }
 
 .bar-3:hover{
@@ -352,6 +356,7 @@ li{
     transition: .5s;
     display: inline-block;
     padding-right: 20px;
+    font-size: .875rem;
 }
 
 .bar-5:hover{
@@ -365,6 +370,7 @@ li{
     transition: .5s;
     display: inline-block;
     padding-right: 20px;
+    font-size: .875rem;
 }
 
 .bar-4:hover{
@@ -377,6 +383,7 @@ li{
     transition: .5s;
     display: inline-block;
     padding-right: 20px;
+    font-size: .875rem;
 }
 
 .bar-6:hover{

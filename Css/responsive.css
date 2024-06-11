@@ -1,14 +1,37 @@
 /* header */
 
-@media (max-width: 1280px) {
+@media (max-width: 1199px) {
     .nav{
       display: none; 
     }
   }
     
-@media (min-width: 1200px) {
+@media (min-width: 1199px) {
   .menu{
     display: flex;
     max-width: 1240px;
   }
 }
+
+
+
+/* ა */
+
+@media (max-width: 1199px) {
+  .menu{
+    display: flex;
+    vertical-align: middle;
+  }
+}
+@media (max-width: 1199px) {
+  .list{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1199.98px) {
+  .main-logo{
+    margin: 0% 0% 0% 50%;
+  }
+}
+
